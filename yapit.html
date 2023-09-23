@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>8H ni boz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #100720;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 3vh;
+            font-family: 'Lato', sans-serif;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            background-image: -webkit-linear-gradient(120deg, rgba(255, 94, 247, 1), #02f5ff);
+            background-image: linear-gradient(120deg, rgba(255, 94, 247, 1), #02f5ff);
+            margin: 4px; /* Remove margin */
+            text-align: center;
+        }
+
+        .subtext {
+            font-size: 3vh;
+            font-family: 'Lato', sans-serif;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            background-image: -webkit-linear-gradient(120deg, rgba(255, 94, 247, 1), #02f5ff);
+            background-image: linear-gradient(120deg, rgba(255, 94, 247, 1), #02f5ff);
+            margin-top: -10px; /* Reduce top margin to bring it closer */
+        }
+
+        button {
+            cursor: pointer;
+            color: #fff;
+            width: 120px;
+            max-width: 300px; /* Limit button width for small screens */
+            height: 40px;
+            font-size: 14px;
+            border-radius: 1rem;
+            border: none;
+            position: relative;
+            background-color: #100720;
+            transition: 0.1s;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        button::after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 94, 247, 1) 17.8%, rgba(2, 245, 255, 1) 100.2%);
+            filter: blur(15px);
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        button:active {
+            transform: scale(0.9) rotate(3deg);
+            background: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 94, 247, 1) 17.8%, #02f5ff 100.2%);
+            transition: 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gradient-container">
+        <h1>The Art of</h1>
+        <h1 class="subtext">8H Digital Class</h1>
+    </div>
+    <a href="aelahEZ.html">
+        <button>Get Started</button>
+    </a>
+</body>
+
+</html>
